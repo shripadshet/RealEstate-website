@@ -24,7 +24,7 @@ export default function Hero() {
           </h1>
           <p className="text-xl text-white/80 mb-10 leading-relaxed">
             Discover exceptional properties in the most desirable locations.
-            Your perfect home awaits with Prestige Estates.
+            Your perfect home awaits with Shripad Estates.
           </p>
 
           <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20">

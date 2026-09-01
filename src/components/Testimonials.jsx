@@ -7,7 +7,7 @@ const testimonials = [
     role: 'First-time Homebuyer',
     image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&q=80',
     rating: 5,
-    text: 'Prestige Estates made buying my first home an incredible experience. Their team was patient, knowledgeable, and always available to answer my questions. I found my dream home in just two weeks!',
+    text: 'Shripad Estates made buying my first home an incredible experience. Their team was patient, knowledgeable, and always available to answer my questions. I found my dream home in just two weeks!',
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const testimonials = [
     role: 'Real Estate Investor',
     image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&q=80',
     rating: 5,
-    text: 'As an investor, I need a team that understands the market inside and out. Prestige Estates consistently provides excellent investment opportunities and their market analysis is top-notch.',
+    text: 'As an investor, I need a team that understands the market inside and out. Shripad Estates consistently provides excellent investment opportunities and their market analysis is top-notch.',
   },
   {
     id: 3,

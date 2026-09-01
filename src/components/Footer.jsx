@@ -24,7 +24,7 @@ export default function Footer() {
             <a href="#home" className="flex items-center gap-2 mb-6">
               <Home className="w-8 h-8 text-secondary" />
               <span className="text-2xl font-bold">
-                Prestige<span className="text-secondary">Estates</span>
+                Shripad<span className="text-secondary">Estates</span>
               </span>
             </a>
             <p className="text-white/60 leading-relaxed mb-6">
@@ -97,7 +97,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col md:flex-row items-center justify-between">
           <p className="text-white/40 text-sm">
-            &copy; {new Date().getFullYear()} Prestige Estates. All rights reserved.
+            &copy; {new Date().getFullYear()} Shripad Estates. All rights reserved.
           </p>
           <button
             onClick={scrollToTop}

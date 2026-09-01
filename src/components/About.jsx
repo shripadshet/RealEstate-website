@@ -3,7 +3,7 @@ import { Award, Users, TrendingUp, Clock } from 'lucide-react'
 const stats = [
   { icon: Award, value: '15+', label: 'Years of Excellence' },
   { icon: Users, value: '2,000+', label: 'Happy Clients' },
-  { icon: TrendingUp, value: '$2B+', label: 'Properties Sold' },
+  { icon: TrendingUp, value: '₹2B+', label: 'Properties Sold' },
   { icon: Clock, value: '24/7', label: 'Customer Support' },
 ]
 
@@ -16,7 +16,7 @@ export default function About() {
             <div className="absolute -top-6 -left-6 w-full h-full bg-secondary/20 rounded-2xl" />
             <img
               src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=80"
-              alt="About Prestige Estates"
+              alt="About Shripad Estates"
               className="relative rounded-2xl shadow-xl w-full h-[500px] object-cover"
             />
             <div className="absolute -bottom-6 -right-6 bg-primary text-white p-8 rounded-2xl shadow-xl">
@@ -32,7 +32,7 @@ export default function About() {
               <span className="text-secondary">Perfect Home</span>
             </h2>
             <p className="text-gray-medium leading-relaxed mb-6">
-              Prestige Estates has been a trusted name in luxury real estate for over
+              Shripad Estates has been a trusted name in luxury real estate for over
               15 years. We specialize in connecting discerning buyers with exceptional
               properties that match their lifestyle and aspirations.
             </p>

@@ -29,7 +29,7 @@ export default function Navbar() {
           <a href="#home" className="flex items-center gap-2">
             <Home className={`w-8 h-8 ${scrolled ? 'text-primary' : 'text-white'}`} />
             <span className={`text-2xl font-bold ${scrolled ? 'text-primary' : 'text-white'}`}>
-              Prestige<span className="text-secondary">Estates</span>
+              Shripad<span className="text-secondary">Estates</span>
             </span>
           </a>
 

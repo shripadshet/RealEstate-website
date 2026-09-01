@@ -4,7 +4,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: 'Visit Us',
-    details: ['123 Luxury Avenue', 'Beverly Hills, CA 90210'],
+    details: ['17th A main ', '2nd phase', 'Bangalore, Karnataka, India'],
   },
   {
     icon: Phone,
@@ -14,7 +14,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: 'Email Us',
-    details: ['info@prestigeestates.com', 'sales@prestigeestates.com'],
+    details: ['info@shripadestates.com', 'sales@shripadestates.com'],
   },
   {
     icon: Clock,

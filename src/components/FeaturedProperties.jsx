@@ -5,7 +5,7 @@ const properties = [
     id: 1,
     title: 'Modern Villa with Ocean View',
     location: 'Malibu, California',
-    price: '$2,450,000',
+    price: '₹2,450,000',
     beds: 5,
     baths: 4,
     sqft: '4,200',
@@ -16,7 +16,7 @@ const properties = [
     id: 2,
     title: 'Luxury Penthouse Suite',
     location: 'Manhattan, New York',
-    price: '$3,800,000',
+    price: '₹3,800,000',
     beds: 4,
     baths: 3,
     sqft: '3,500',
@@ -27,7 +27,7 @@ const properties = [
     id: 3,
     title: 'Contemporary Family Home',
     location: 'Beverly Hills, CA',
-    price: '$1,850,000',
+    price: '₹1,850,000',
     beds: 4,
     baths: 3,
     sqft: '3,100',
@@ -38,7 +38,7 @@ const properties = [
     id: 4,
     title: 'Waterfront Estate',
     location: 'Miami Beach, Florida',
-    price: '$4,200,000',
+    price: '₹4,200,000',
     beds: 6,
     baths: 5,
     sqft: '5,800',
@@ -49,7 +49,7 @@ const properties = [
     id: 5,
     title: 'Urban Loft Apartment',
     location: 'Downtown Chicago, IL',
-    price: '$780,000',
+    price: '₹780,000',
     beds: 2,
     baths: 2,
     sqft: '1,400',
@@ -60,7 +60,7 @@ const properties = [
     id: 6,
     title: 'Charming Colonial House',
     location: 'Greenwich, Connecticut',
-    price: '$1,250,000',
+    price: ' ₹1,250,000',
     beds: 4,
     baths: 3,
     sqft: '2,800',
@@ -103,7 +103,7 @@ export default function FeaturedProperties() {
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <span
-                  className={`absolute top-4 left-4 ${tagColors[property.tag]} text-white text-xs font-semibold px-3 py-1 rounded-full`}
+                  className={`absolute top-4 left-4  ₹{tagColors[property.tag]} text-white text-xs font-semibold px-3 py-1 rounded-full`}
                 >
                   {property.tag}
                 </span>
